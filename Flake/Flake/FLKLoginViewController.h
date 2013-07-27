@@ -9,5 +9,11 @@
 #import "FLKViewController.h"
 
 @interface FLKLoginViewController : FLKViewController
+{
+    IBOutlet UIButton *loginButton;
+    
+}
+
+- (IBAction)login:(id)sender;
 
 @end
