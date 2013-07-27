@@ -9,6 +9,7 @@
 #import "FLKAppDelegate.h"
 
 #import "FLKViewController.h"
+#import "FLKLoginViewController.h"
 
 @implementation FLKAppDelegate
 
@@ -16,7 +17,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[FLKViewController alloc] initWithNibName:@"FLKViewController" bundle:nil];
+    self.viewController = [[FLKLoginViewController alloc] initWithNibName:@"FLKLoginViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

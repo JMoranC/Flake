@@ -18,6 +18,8 @@
 		476DCE9017A4693C00ADBAA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCE8F17A4693C00ADBAA3 /* Default-568h@2x.png */; };
 		476DCE9317A4693C00ADBAA3 /* FLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCE9217A4693C00ADBAA3 /* FLKViewController.m */; };
 		476DCE9617A4693C00ADBAA3 /* FLKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476DCE9417A4693C00ADBAA3 /* FLKViewController.xib */; };
+		476DCEAA17A46CF800ADBAA3 /* FLKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCEA817A46CF800ADBAA3 /* FLKLoginViewController.m */; };
+		476DCEAB17A46CF800ADBAA3 /* FLKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEA917A46CF800ADBAA3 /* FLKLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		476DCE9117A4693C00ADBAA3 /* FLKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLKViewController.h; sourceTree = "<group>"; };
 		476DCE9217A4693C00ADBAA3 /* FLKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLKViewController.m; sourceTree = "<group>"; };
 		476DCE9517A4693C00ADBAA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLKViewController.xib; sourceTree = "<group>"; };
+		476DCEA717A46CF800ADBAA3 /* FLKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKLoginViewController.h; sourceTree = "<group>"; };
+		476DCEA817A46CF800ADBAA3 /* FLKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKLoginViewController.m; sourceTree = "<group>"; };
+		476DCEA917A46CF800ADBAA3 /* FLKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLKLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 				476DCE9117A4693C00ADBAA3 /* FLKViewController.h */,
 				476DCE9217A4693C00ADBAA3 /* FLKViewController.m */,
 				476DCE9417A4693C00ADBAA3 /* FLKViewController.xib */,
+				476DCEA617A46CE900ADBAA3 /* Controllers */,
 				476DCE8017A4693C00ADBAA3 /* Supporting Files */,
 			);
 			path = Flake;
@@ -105,6 +111,16 @@
 				476DCE8F17A4693C00ADBAA3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		476DCEA617A46CE900ADBAA3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				476DCEA717A46CF800ADBAA3 /* FLKLoginViewController.h */,
+				476DCEA817A46CF800ADBAA3 /* FLKLoginViewController.m */,
+				476DCEA917A46CF800ADBAA3 /* FLKLoginViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +180,7 @@
 				476DCE8E17A4693C00ADBAA3 /* Default@2x.png in Resources */,
 				476DCE9017A4693C00ADBAA3 /* Default-568h@2x.png in Resources */,
 				476DCE9617A4693C00ADBAA3 /* FLKViewController.xib in Resources */,
+				476DCEAB17A46CF800ADBAA3 /* FLKLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +194,7 @@
 				476DCE8617A4693C00ADBAA3 /* main.m in Sources */,
 				476DCE8A17A4693C00ADBAA3 /* FLKAppDelegate.m in Sources */,
 				476DCE9317A4693C00ADBAA3 /* FLKViewController.m in Sources */,
+				476DCEAA17A46CF800ADBAA3 /* FLKLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +317,7 @@
 				476DCE9B17A4693C00ADBAA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
