@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class FLKAppDelegate;
+
 @interface FLKViewController : UIViewController
+
+@property (nonatomic) FLKAppDelegate *appDelegate;
 
 @end

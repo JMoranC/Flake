@@ -14,6 +14,11 @@
 
 @implementation FLKViewController
 
+-(FLKAppDelegate *)appDelegate
+{
+    return (FLKAppDelegate *)[UIApplication sharedApplication].delegate;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

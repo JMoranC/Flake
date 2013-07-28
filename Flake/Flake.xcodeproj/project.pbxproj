@@ -56,7 +56,7 @@
 		476DCF2C17A4807500ADBAA3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEEE17A4807400ADBAA3 /* LICENSE */; };
 		476DCF2D17A4807500ADBAA3 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEEF17A4807500ADBAA3 /* Rakefile */; };
 		476DCF2E17A4807500ADBAA3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEF017A4807500ADBAA3 /* README.md */; };
-		476DCF5A17A499A200ADBAA3 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 476DCF5817A499A200ADBAA3 /* DataModel.xcdatamodeld */; };
+		476DCF5A17A499A200ADBAA3 /* Flake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 476DCF5817A499A200ADBAA3 /* Flake.xcdatamodeld */; };
 		476DCF6017A49C7400ADBAA3 /* FLKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCF5F17A49C7400ADBAA3 /* FLKUser.m */; };
 		476DCF6D17A4A09800ADBAA3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476DCF6C17A4A09800ADBAA3 /* CoreData.framework */; };
 		476DCF6F17A4A0C300ADBAA3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476DCF6E17A4A0C300ADBAA3 /* CFNetwork.framework */; };
@@ -156,7 +156,7 @@
 		476DCEEE17A4807400ADBAA3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		476DCEEF17A4807500ADBAA3 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 		476DCEF017A4807500ADBAA3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		476DCF5917A499A200ADBAA3 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		476DCF5917A499A200ADBAA3 /* Flake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flake.xcdatamodel; sourceTree = "<group>"; };
 		476DCF5E17A49C7400ADBAA3 /* FLKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKUser.h; sourceTree = "<group>"; };
 		476DCF5F17A49C7400ADBAA3 /* FLKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKUser.m; sourceTree = "<group>"; };
 		476DCF6617A49FAC00ADBAA3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -185,7 +185,7 @@
 		476DCE6D17A4693C00ADBAA3 = {
 			isa = PBXGroup;
 			children = (
-				476DCF5817A499A200ADBAA3 /* DataModel.xcdatamodeld */,
+				476DCF5817A499A200ADBAA3 /* Flake.xcdatamodeld */,
 				476DCE7F17A4693C00ADBAA3 /* Flake */,
 				476DCE7817A4693C00ADBAA3 /* Frameworks */,
 				476DCE7717A4693C00ADBAA3 /* Products */,
@@ -534,7 +534,7 @@
 				476DCF1D17A4807500ADBAA3 /* Post.m in Sources */,
 				476DCF1E17A4807500ADBAA3 /* User.m in Sources */,
 				476DCF1F17A4807500ADBAA3 /* PostTableViewCell.m in Sources */,
-				476DCF5A17A499A200ADBAA3 /* DataModel.xcdatamodeld in Sources */,
+				476DCF5A17A499A200ADBAA3 /* Flake.xcdatamodeld in Sources */,
 				476DCF6017A49C7400ADBAA3 /* FLKUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -679,14 +679,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		476DCF5817A499A200ADBAA3 /* DataModel.xcdatamodeld */ = {
+		476DCF5817A499A200ADBAA3 /* Flake.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				476DCF5917A499A200ADBAA3 /* DataModel.xcdatamodel */,
+				476DCF5917A499A200ADBAA3 /* Flake.xcdatamodel */,
 			);
-			currentVersion = 476DCF5917A499A200ADBAA3 /* DataModel.xcdatamodel */;
-			name = DataModel.xcdatamodeld;
-			path = Flake/DataModel.xcdatamodeld;
+			currentVersion = 476DCF5917A499A200ADBAA3 /* Flake.xcdatamodel */;
+			name = Flake.xcdatamodeld;
+			path = Flake/Flake.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
