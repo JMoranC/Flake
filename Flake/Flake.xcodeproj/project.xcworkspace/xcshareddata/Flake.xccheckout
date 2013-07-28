@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC88E6FD-951F-482C-A79B-EA45E96F5ADA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Flake</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D18F94DE-AC15-4B90-B40F-B918B0AB6A25</key>
+		<string>https://github.com/adrnswanberg/Flake.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Flake/Flake.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D18F94DE-AC15-4B90-B40F-B918B0AB6A25</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adrnswanberg/Flake.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D18F94DE-AC15-4B90-B40F-B918B0AB6A25</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D18F94DE-AC15-4B90-B40F-B918B0AB6A25</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Flake</string>
+		</dict>
+	</array>
+</dict>
+</plist>

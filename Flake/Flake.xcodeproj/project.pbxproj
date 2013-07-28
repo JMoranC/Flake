@@ -73,6 +73,8 @@
 		476DCF3C17A4807500ADBAA3 /* root_certificate.key in Resources */ = {isa = PBXBuildFile; fileRef = 476DCF0617A4807500ADBAA3 /* root_certificate.key */; };
 		476DCF3D17A4807500ADBAA3 /* iOS Tests.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 476DCF0817A4807500ADBAA3 /* iOS Tests.xcscheme */; };
 		476DCF3E17A4807500ADBAA3 /* OS X Tests.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 476DCF0917A4807500ADBAA3 /* OS X Tests.xcscheme */; };
+		476DCF5A17A499A200ADBAA3 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 476DCF5817A499A200ADBAA3 /* DataModel.xcdatamodeld */; };
+		476DCF6017A49C7400ADBAA3 /* FLKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCF5F17A49C7400ADBAA3 /* FLKUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,6 +204,9 @@
 		476DCF0617A4807500ADBAA3 /* root_certificate.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = root_certificate.key; sourceTree = "<group>"; };
 		476DCF0817A4807500ADBAA3 /* iOS Tests.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "iOS Tests.xcscheme"; sourceTree = "<group>"; };
 		476DCF0917A4807500ADBAA3 /* OS X Tests.xcscheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "OS X Tests.xcscheme"; sourceTree = "<group>"; };
+		476DCF5917A499A200ADBAA3 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		476DCF5E17A49C7400ADBAA3 /* FLKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKUser.h; sourceTree = "<group>"; };
+		476DCF5F17A49C7400ADBAA3 /* FLKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +226,7 @@
 		476DCE6D17A4693C00ADBAA3 = {
 			isa = PBXGroup;
 			children = (
+				476DCF5817A499A200ADBAA3 /* DataModel.xcdatamodeld */,
 				476DCE7F17A4693C00ADBAA3 /* Flake */,
 				476DCE7817A4693C00ADBAA3 /* Frameworks */,
 				476DCE7717A4693C00ADBAA3 /* Products */,
@@ -254,6 +260,7 @@
 				476DCE9217A4693C00ADBAA3 /* FLKViewController.m */,
 				476DCE9417A4693C00ADBAA3 /* FLKViewController.xib */,
 				476DCEA617A46CE900ADBAA3 /* Controllers */,
+				476DCF4B17A485FC00ADBAA3 /* Models */,
 				476DCE8017A4693C00ADBAA3 /* Supporting Files */,
 			);
 			path = Flake;
@@ -473,6 +480,15 @@
 			path = Schemes;
 			sourceTree = "<group>";
 		};
+		476DCF4B17A485FC00ADBAA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				476DCF5E17A49C7400ADBAA3 /* FLKUser.h */,
+				476DCF5F17A49C7400ADBAA3 /* FLKUser.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -643,6 +659,8 @@
 				476DCF3317A4807500ADBAA3 /* AFMockURLProtocol.m in Sources */,
 				476DCF3517A4807500ADBAA3 /* AFNetworkingTests.m in Sources */,
 				476DCF3617A4807500ADBAA3 /* AFURLConnectionOperationTests.m in Sources */,
+				476DCF5A17A499A200ADBAA3 /* DataModel.xcdatamodeld in Sources */,
+				476DCF6017A49C7400ADBAA3 /* FLKUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,6 +794,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		476DCF5817A499A200ADBAA3 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				476DCF5917A499A200ADBAA3 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 476DCF5917A499A200ADBAA3 /* DataModel.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = Flake/DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 476DCE6E17A4693C00ADBAA3 /* Project object */;
 }
