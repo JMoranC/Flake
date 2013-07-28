@@ -55,6 +55,8 @@
 		476DCFFD17A5126B00ADBAA3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFF717A5126B00ADBAA3 /* background.png */; };
 		476DCFFE17A5126B00ADBAA3 /* hangout_user_inga.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFF817A5126B00ADBAA3 /* hangout_user_inga.png */; };
 		476DD00017A5179E00ADBAA3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFFF17A5179E00ADBAA3 /* logo.png */; };
+		476DD00317A5223B00ADBAA3 /* FLKAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DD00217A5223B00ADBAA3 /* FLKAvatarView.m */; };
+		476DD00517A5229600ADBAA3 /* FLKAvatarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476DD00417A5229500ADBAA3 /* FLKAvatarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +127,9 @@
 		476DCFF717A5126B00ADBAA3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		476DCFF817A5126B00ADBAA3 /* hangout_user_inga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangout_user_inga.png; sourceTree = "<group>"; };
 		476DCFFF17A5179E00ADBAA3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		476DD00117A5223B00ADBAA3 /* FLKAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKAvatarView.h; sourceTree = "<group>"; };
+		476DD00217A5223B00ADBAA3 /* FLKAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKAvatarView.m; sourceTree = "<group>"; };
+		476DD00417A5229500ADBAA3 /* FLKAvatarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FLKAvatarView.xib; path = ../FLKAvatarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +153,6 @@
 		476DCE6D17A4693C00ADBAA3 = {
 			isa = PBXGroup;
 			children = (
-				476DCFF117A4EC3100ADBAA3 /* MapKit.framework */,
 				476DCFE917A4D54000ADBAA3 /* icon_small.png */,
 				476DCFE717A4D4B100ADBAA3 /* icon.png */,
 				476DCF5817A499A200ADBAA3 /* Flake.xcdatamodeld */,
@@ -169,6 +173,7 @@
 		476DCE7817A4693C00ADBAA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				476DCFF117A4EC3100ADBAA3 /* MapKit.framework */,
 				476DCF7017A4A0CA00ADBAA3 /* Security.framework */,
 				476DCF6E17A4A0C300ADBAA3 /* CFNetwork.framework */,
 				476DCF6C17A4A09800ADBAA3 /* CoreData.framework */,
@@ -295,6 +300,9 @@
 		476DCFEB17A4E9D000ADBAA3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				476DD00117A5223B00ADBAA3 /* FLKAvatarView.h */,
+				476DD00217A5223B00ADBAA3 /* FLKAvatarView.m */,
+				476DD00417A5229500ADBAA3 /* FLKAvatarView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -376,6 +384,7 @@
 				476DCFFD17A5126B00ADBAA3 /* background.png in Resources */,
 				476DCFFE17A5126B00ADBAA3 /* hangout_user_inga.png in Resources */,
 				476DD00017A5179E00ADBAA3 /* logo.png in Resources */,
+				476DD00517A5229600ADBAA3 /* FLKAvatarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +411,7 @@
 				476DCF5A17A499A200ADBAA3 /* Flake.xcdatamodeld in Sources */,
 				476DCFDC17A4B27B00ADBAA3 /* FLKManagedObject.m in Sources */,
 				476DCFDF17A4B4AD00ADBAA3 /* FLKUser.m in Sources */,
+				476DD00317A5223B00ADBAA3 /* FLKAvatarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
