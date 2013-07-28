@@ -32,27 +32,7 @@
 		476DCF1317A4807500ADBAA3 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCEC017A4807400ADBAA3 /* AFXMLRequestOperation.m */; };
 		476DCF1417A4807500ADBAA3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCEC217A4807400ADBAA3 /* UIImageView+AFNetworking.m */; };
 		476DCF1517A4807500ADBAA3 /* AFNetworking.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEC317A4807400ADBAA3 /* AFNetworking.podspec */; };
-		476DCF1617A4807500ADBAA3 /* AFNetworking.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEC417A4807400ADBAA3 /* AFNetworking.xcworkspace */; };
 		476DCF1717A4807500ADBAA3 /* CHANGES in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEC517A4807400ADBAA3 /* CHANGES */; };
-		476DCF1817A4807500ADBAA3 /* adn.cer in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEC717A4807400ADBAA3 /* adn.cer */; };
-		476DCF1917A4807500ADBAA3 /* AFNetworking Example.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEC817A4807400ADBAA3 /* AFNetworking Example.entitlements */; };
-		476DCF1A17A4807500ADBAA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCED017A4807400ADBAA3 /* AppDelegate.m */; };
-		476DCF1B17A4807500ADBAA3 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCED317A4807400ADBAA3 /* AFAppDotNetAPIClient.m */; };
-		476DCF1C17A4807500ADBAA3 /* GlobalTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCED617A4807400ADBAA3 /* GlobalTimelineViewController.m */; };
-		476DCF1D17A4807500ADBAA3 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCED917A4807400ADBAA3 /* Post.m */; };
-		476DCF1E17A4807500ADBAA3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCEDB17A4807400ADBAA3 /* User.m */; };
-		476DCF1F17A4807500ADBAA3 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCEDE17A4807400ADBAA3 /* PostTableViewCell.m */; };
-		476DCF2017A4807500ADBAA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEDF17A4807400ADBAA3 /* Default-568h@2x.png */; };
-		476DCF2117A4807500ADBAA3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEE017A4807400ADBAA3 /* Default.png */; };
-		476DCF2217A4807500ADBAA3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEE117A4807400ADBAA3 /* Default@2x.png */; };
-		476DCF2317A4807500ADBAA3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEE217A4807400ADBAA3 /* MainMenu.xib */; };
-		476DCF2417A4807500ADBAA3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEE417A4807400ADBAA3 /* Icon.png */; };
-		476DCF2517A4807500ADBAA3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEE517A4807400ADBAA3 /* Icon@2x.png */; };
-		476DCF2617A4807500ADBAA3 /* profile-image-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEE717A4807400ADBAA3 /* profile-image-placeholder.png */; };
-		476DCF2717A4807500ADBAA3 /* profile-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEE817A4807400ADBAA3 /* profile-image-placeholder@2x.png */; };
-		476DCF2817A4807500ADBAA3 /* iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEE917A4807400ADBAA3 /* iOS-Info.plist */; };
-		476DCF2917A4807500ADBAA3 /* Mac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEEA17A4807400ADBAA3 /* Mac-Info.plist */; };
-		476DCF2B17A4807500ADBAA3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEEC17A4807400ADBAA3 /* MainMenu.xib */; };
 		476DCF2C17A4807500ADBAA3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEEE17A4807400ADBAA3 /* LICENSE */; };
 		476DCF2D17A4807500ADBAA3 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEEF17A4807500ADBAA3 /* Rakefile */; };
 		476DCF2E17A4807500ADBAA3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEF017A4807500ADBAA3 /* README.md */; };
@@ -62,24 +42,13 @@
 		476DCF7117A4A0CA00ADBAA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476DCF7017A4A0CA00ADBAA3 /* Security.framework */; };
 		476DCFDC17A4B27B00ADBAA3 /* FLKManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCFDB17A4B27B00ADBAA3 /* FLKManagedObject.m */; };
 		476DCFDF17A4B4AD00ADBAA3 /* FLKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCFDE17A4B4AD00ADBAA3 /* FLKUser.m */; };
+		476DCFE217A4CD8700ADBAA3 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFE117A4CD8700ADBAA3 /* splash.png */; };
+		476DCFE417A4D0FE00ADBAA3 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFE317A4D0FE00ADBAA3 /* circle.png */; };
+		476DCFE617A4D4A900ADBAA3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFE517A4D4A900ADBAA3 /* icon.png */; };
+		476DCFE817A4D4B100ADBAA3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFE717A4D4B100ADBAA3 /* icon.png */; };
+		476DCFEA17A4D54100ADBAA3 /* icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFE917A4D54000ADBAA3 /* icon_small.png */; };
+		476DCFF217A4EC3100ADBAA3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476DCFF117A4EC3100ADBAA3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		476DCF4017A4807600ADBAA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 476DCEC917A4807400ADBAA3 /* AFNetworking iOS Example.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8E469601395739C00DB05C8;
-			remoteInfo = "AFNetworking iOS Example";
-		};
-		476DCF4317A4807600ADBAA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 476DCECC17A4807400ADBAA3 /* AFNetworking Mac Example.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8129BFB1591061B009BFE23;
-			remoteInfo = "AFNetworking Example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		476DCE7617A4693C00ADBAA3 /* Flake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flake.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,37 +92,7 @@
 		476DCEC117A4807400ADBAA3 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		476DCEC217A4807400ADBAA3 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		476DCEC317A4807400ADBAA3 /* AFNetworking.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AFNetworking.podspec; sourceTree = "<group>"; };
-		476DCEC417A4807400ADBAA3 /* AFNetworking.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = AFNetworking.xcworkspace; sourceTree = "<group>"; };
 		476DCEC517A4807400ADBAA3 /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
-		476DCEC717A4807400ADBAA3 /* adn.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = adn.cer; sourceTree = "<group>"; };
-		476DCEC817A4807400ADBAA3 /* AFNetworking Example.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AFNetworking Example.entitlements"; sourceTree = "<group>"; };
-		476DCEC917A4807400ADBAA3 /* AFNetworking iOS Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "AFNetworking iOS Example.xcodeproj"; sourceTree = "<group>"; };
-		476DCECC17A4807400ADBAA3 /* AFNetworking Mac Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "AFNetworking Mac Example.xcodeproj"; sourceTree = "<group>"; };
-		476DCECF17A4807400ADBAA3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		476DCED017A4807400ADBAA3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		476DCED217A4807400ADBAA3 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
-		476DCED317A4807400ADBAA3 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
-		476DCED517A4807400ADBAA3 /* GlobalTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTimelineViewController.h; sourceTree = "<group>"; };
-		476DCED617A4807400ADBAA3 /* GlobalTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTimelineViewController.m; sourceTree = "<group>"; };
-		476DCED817A4807400ADBAA3 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
-		476DCED917A4807400ADBAA3 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
-		476DCEDA17A4807400ADBAA3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		476DCEDB17A4807400ADBAA3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		476DCEDD17A4807400ADBAA3 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
-		476DCEDE17A4807400ADBAA3 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
-		476DCEDF17A4807400ADBAA3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		476DCEE017A4807400ADBAA3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		476DCEE117A4807400ADBAA3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		476DCEE317A4807400ADBAA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		476DCEE417A4807400ADBAA3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		476DCEE517A4807400ADBAA3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		476DCEE717A4807400ADBAA3 /* profile-image-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder.png"; sourceTree = "<group>"; };
-		476DCEE817A4807400ADBAA3 /* profile-image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder@2x.png"; sourceTree = "<group>"; };
-		476DCEE917A4807400ADBAA3 /* iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS-Info.plist"; sourceTree = "<group>"; };
-		476DCEEA17A4807400ADBAA3 /* Mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mac-Info.plist"; sourceTree = "<group>"; };
-		476DCEEB17A4807400ADBAA3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		476DCEEC17A4807400ADBAA3 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		476DCEED17A4807400ADBAA3 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		476DCEEE17A4807400ADBAA3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		476DCEEF17A4807500ADBAA3 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 		476DCEF017A4807500ADBAA3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -166,6 +105,12 @@
 		476DCFDB17A4B27B00ADBAA3 /* FLKManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKManagedObject.m; sourceTree = "<group>"; };
 		476DCFDD17A4B4AD00ADBAA3 /* FLKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKUser.h; sourceTree = "<group>"; };
 		476DCFDE17A4B4AD00ADBAA3 /* FLKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKUser.m; sourceTree = "<group>"; };
+		476DCFE117A4CD8700ADBAA3 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		476DCFE317A4D0FE00ADBAA3 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		476DCFE517A4D4A900ADBAA3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		476DCFE717A4D4B100ADBAA3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		476DCFE917A4D54000ADBAA3 /* icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_small.png; sourceTree = "<group>"; };
+		476DCFF117A4EC3100ADBAA3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476DCFF217A4EC3100ADBAA3 /* MapKit.framework in Frameworks */,
 				476DCF7117A4A0CA00ADBAA3 /* Security.framework in Frameworks */,
 				476DCF6F17A4A0C300ADBAA3 /* CFNetwork.framework in Frameworks */,
 				476DCF6D17A4A09800ADBAA3 /* CoreData.framework in Frameworks */,
@@ -188,6 +134,9 @@
 		476DCE6D17A4693C00ADBAA3 = {
 			isa = PBXGroup;
 			children = (
+				476DCFF117A4EC3100ADBAA3 /* MapKit.framework */,
+				476DCFE917A4D54000ADBAA3 /* icon_small.png */,
+				476DCFE717A4D4B100ADBAA3 /* icon.png */,
 				476DCF5817A499A200ADBAA3 /* Flake.xcdatamodeld */,
 				476DCE7F17A4693C00ADBAA3 /* Flake */,
 				476DCE7817A4693C00ADBAA3 /* Frameworks */,
@@ -225,6 +174,7 @@
 				476DCE9117A4693C00ADBAA3 /* FLKViewController.h */,
 				476DCE9217A4693C00ADBAA3 /* FLKViewController.m */,
 				476DCE9417A4693C00ADBAA3 /* FLKViewController.xib */,
+				476DCFEB17A4E9D000ADBAA3 /* Views */,
 				476DCEA617A46CE900ADBAA3 /* Controllers */,
 				476DCF4B17A485FC00ADBAA3 /* Models */,
 				476DCE8017A4693C00ADBAA3 /* Supporting Files */,
@@ -235,6 +185,7 @@
 		476DCE8017A4693C00ADBAA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				476DCFE017A4CD6C00ADBAA3 /* Resources */,
 				476DCEAC17A4807400ADBAA3 /* AFNetworking-AFNetworking-75bd257 */,
 				476DCE8117A4693C00ADBAA3 /* Flake-Info.plist */,
 				476DCE8217A4693C00ADBAA3 /* InfoPlist.strings */,
@@ -264,9 +215,7 @@
 				476DCEAE17A4807400ADBAA3 /* .travis.yml */,
 				476DCEAF17A4807400ADBAA3 /* AFNetworking */,
 				476DCEC317A4807400ADBAA3 /* AFNetworking.podspec */,
-				476DCEC417A4807400ADBAA3 /* AFNetworking.xcworkspace */,
 				476DCEC517A4807400ADBAA3 /* CHANGES */,
-				476DCEC617A4807400ADBAA3 /* Example */,
 				476DCEEE17A4807400ADBAA3 /* LICENSE */,
 				476DCEEF17A4807500ADBAA3 /* Rakefile */,
 				476DCEF017A4807500ADBAA3 /* README.md */,
@@ -301,98 +250,6 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		476DCEC617A4807400ADBAA3 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				476DCEC717A4807400ADBAA3 /* adn.cer */,
-				476DCEC817A4807400ADBAA3 /* AFNetworking Example.entitlements */,
-				476DCEC917A4807400ADBAA3 /* AFNetworking iOS Example.xcodeproj */,
-				476DCECC17A4807400ADBAA3 /* AFNetworking Mac Example.xcodeproj */,
-				476DCECF17A4807400ADBAA3 /* AppDelegate.h */,
-				476DCED017A4807400ADBAA3 /* AppDelegate.m */,
-				476DCED117A4807400ADBAA3 /* Classes */,
-				476DCEDF17A4807400ADBAA3 /* Default-568h@2x.png */,
-				476DCEE017A4807400ADBAA3 /* Default.png */,
-				476DCEE117A4807400ADBAA3 /* Default@2x.png */,
-				476DCEE217A4807400ADBAA3 /* MainMenu.xib */,
-				476DCEE417A4807400ADBAA3 /* Icon.png */,
-				476DCEE517A4807400ADBAA3 /* Icon@2x.png */,
-				476DCEE617A4807400ADBAA3 /* Images */,
-				476DCEE917A4807400ADBAA3 /* iOS-Info.plist */,
-				476DCEEA17A4807400ADBAA3 /* Mac-Info.plist */,
-				476DCEEB17A4807400ADBAA3 /* main.m */,
-				476DCEEC17A4807400ADBAA3 /* MainMenu.xib */,
-				476DCEED17A4807400ADBAA3 /* Prefix.pch */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		476DCECA17A4807400ADBAA3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				476DCF4117A4807600ADBAA3 /* AFNetworking iOS Example.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		476DCECD17A4807400ADBAA3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				476DCF4417A4807600ADBAA3 /* AFNetworking Example.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		476DCED117A4807400ADBAA3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				476DCED217A4807400ADBAA3 /* AFAppDotNetAPIClient.h */,
-				476DCED317A4807400ADBAA3 /* AFAppDotNetAPIClient.m */,
-				476DCED417A4807400ADBAA3 /* Controllers */,
-				476DCED717A4807400ADBAA3 /* Models */,
-				476DCEDC17A4807400ADBAA3 /* Views */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		476DCED417A4807400ADBAA3 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				476DCED517A4807400ADBAA3 /* GlobalTimelineViewController.h */,
-				476DCED617A4807400ADBAA3 /* GlobalTimelineViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		476DCED717A4807400ADBAA3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				476DCED817A4807400ADBAA3 /* Post.h */,
-				476DCED917A4807400ADBAA3 /* Post.m */,
-				476DCEDA17A4807400ADBAA3 /* User.h */,
-				476DCEDB17A4807400ADBAA3 /* User.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		476DCEDC17A4807400ADBAA3 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				476DCEDD17A4807400ADBAA3 /* PostTableViewCell.h */,
-				476DCEDE17A4807400ADBAA3 /* PostTableViewCell.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		476DCEE617A4807400ADBAA3 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				476DCEE717A4807400ADBAA3 /* profile-image-placeholder.png */,
-				476DCEE817A4807400ADBAA3 /* profile-image-placeholder@2x.png */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		476DCF4B17A485FC00ADBAA3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -402,6 +259,23 @@
 				476DCFDE17A4B4AD00ADBAA3 /* FLKUser.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		476DCFE017A4CD6C00ADBAA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				476DCFE517A4D4A900ADBAA3 /* icon.png */,
+				476DCFE317A4D0FE00ADBAA3 /* circle.png */,
+				476DCFE117A4CD8700ADBAA3 /* splash.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		476DCFEB17A4E9D000ADBAA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,39 +318,12 @@
 			mainGroup = 476DCE6D17A4693C00ADBAA3;
 			productRefGroup = 476DCE7717A4693C00ADBAA3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 476DCECA17A4807400ADBAA3 /* Products */;
-					ProjectRef = 476DCEC917A4807400ADBAA3 /* AFNetworking iOS Example.xcodeproj */;
-				},
-				{
-					ProductGroup = 476DCECD17A4807400ADBAA3 /* Products */;
-					ProjectRef = 476DCECC17A4807400ADBAA3 /* AFNetworking Mac Example.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				476DCE7517A4693C00ADBAA3 /* Flake */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		476DCF4117A4807600ADBAA3 /* AFNetworking iOS Example.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "AFNetworking iOS Example.app";
-			remoteRef = 476DCF4017A4807600ADBAA3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		476DCF4417A4807600ADBAA3 /* AFNetworking Example.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "AFNetworking Example.app";
-			remoteRef = 476DCF4317A4807600ADBAA3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		476DCE7417A4693C00ADBAA3 /* Resources */ = {
@@ -492,24 +339,15 @@
 				476DCF0A17A4807500ADBAA3 /* .gitignore in Resources */,
 				476DCF0B17A4807500ADBAA3 /* .travis.yml in Resources */,
 				476DCF1517A4807500ADBAA3 /* AFNetworking.podspec in Resources */,
-				476DCF1617A4807500ADBAA3 /* AFNetworking.xcworkspace in Resources */,
 				476DCF1717A4807500ADBAA3 /* CHANGES in Resources */,
-				476DCF1817A4807500ADBAA3 /* adn.cer in Resources */,
-				476DCF1917A4807500ADBAA3 /* AFNetworking Example.entitlements in Resources */,
-				476DCF2017A4807500ADBAA3 /* Default-568h@2x.png in Resources */,
-				476DCF2117A4807500ADBAA3 /* Default.png in Resources */,
-				476DCF2217A4807500ADBAA3 /* Default@2x.png in Resources */,
-				476DCF2317A4807500ADBAA3 /* MainMenu.xib in Resources */,
-				476DCF2417A4807500ADBAA3 /* Icon.png in Resources */,
-				476DCF2517A4807500ADBAA3 /* Icon@2x.png in Resources */,
-				476DCF2617A4807500ADBAA3 /* profile-image-placeholder.png in Resources */,
-				476DCF2717A4807500ADBAA3 /* profile-image-placeholder@2x.png in Resources */,
-				476DCF2817A4807500ADBAA3 /* iOS-Info.plist in Resources */,
-				476DCF2917A4807500ADBAA3 /* Mac-Info.plist in Resources */,
-				476DCF2B17A4807500ADBAA3 /* MainMenu.xib in Resources */,
 				476DCF2C17A4807500ADBAA3 /* LICENSE in Resources */,
 				476DCF2D17A4807500ADBAA3 /* Rakefile in Resources */,
 				476DCF2E17A4807500ADBAA3 /* README.md in Resources */,
+				476DCFE217A4CD8700ADBAA3 /* splash.png in Resources */,
+				476DCFE417A4D0FE00ADBAA3 /* circle.png in Resources */,
+				476DCFE617A4D4A900ADBAA3 /* icon.png in Resources */,
+				476DCFE817A4D4B100ADBAA3 /* icon.png in Resources */,
+				476DCFEA17A4D54100ADBAA3 /* icon_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,12 +371,6 @@
 				476DCF1217A4807500ADBAA3 /* AFURLConnectionOperation.m in Sources */,
 				476DCF1317A4807500ADBAA3 /* AFXMLRequestOperation.m in Sources */,
 				476DCF1417A4807500ADBAA3 /* UIImageView+AFNetworking.m in Sources */,
-				476DCF1A17A4807500ADBAA3 /* AppDelegate.m in Sources */,
-				476DCF1B17A4807500ADBAA3 /* AFAppDotNetAPIClient.m in Sources */,
-				476DCF1C17A4807500ADBAA3 /* GlobalTimelineViewController.m in Sources */,
-				476DCF1D17A4807500ADBAA3 /* Post.m in Sources */,
-				476DCF1E17A4807500ADBAA3 /* User.m in Sources */,
-				476DCF1F17A4807500ADBAA3 /* PostTableViewCell.m in Sources */,
 				476DCF5A17A499A200ADBAA3 /* Flake.xcdatamodeld in Sources */,
 				476DCFDC17A4B27B00ADBAA3 /* FLKManagedObject.m in Sources */,
 				476DCFDF17A4B4AD00ADBAA3 /* FLKUser.m in Sources */,
@@ -562,14 +394,6 @@
 				476DCE9517A4693C00ADBAA3 /* en */,
 			);
 			name = FLKViewController.xib;
-			sourceTree = "<group>";
-		};
-		476DCEE217A4807400ADBAA3 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				476DCEE317A4807400ADBAA3 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
