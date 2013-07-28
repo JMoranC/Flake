@@ -57,6 +57,10 @@
 		476DD00017A5179E00ADBAA3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFFF17A5179E00ADBAA3 /* logo.png */; };
 		476DD00317A5223B00ADBAA3 /* FLKAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DD00217A5223B00ADBAA3 /* FLKAvatarView.m */; };
 		476DD00517A5229600ADBAA3 /* FLKAvatarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476DD00417A5229500ADBAA3 /* FLKAvatarView.xib */; };
+		476DD00717A524CD00ADBAA3 /* ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DD00617A524CD00ADBAA3 /* ring.png */; };
+		476DD00B17A53A4E00ADBAA3 /* FLKHangoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DD00917A53A4E00ADBAA3 /* FLKHangoutViewController.m */; };
+		476DD00C17A53A4E00ADBAA3 /* FLKHangoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476DD00A17A53A4E00ADBAA3 /* FLKHangoutViewController.xib */; };
+		476DD00E17A53AAB00ADBAA3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476DD00D17A53AAB00ADBAA3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +134,11 @@
 		476DD00117A5223B00ADBAA3 /* FLKAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKAvatarView.h; sourceTree = "<group>"; };
 		476DD00217A5223B00ADBAA3 /* FLKAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKAvatarView.m; sourceTree = "<group>"; };
 		476DD00417A5229500ADBAA3 /* FLKAvatarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FLKAvatarView.xib; path = ../FLKAvatarView.xib; sourceTree = "<group>"; };
+		476DD00617A524CD00ADBAA3 /* ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring.png; sourceTree = "<group>"; };
+		476DD00817A53A4E00ADBAA3 /* FLKHangoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKHangoutViewController.h; sourceTree = "<group>"; };
+		476DD00917A53A4E00ADBAA3 /* FLKHangoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKHangoutViewController.m; sourceTree = "<group>"; };
+		476DD00A17A53A4E00ADBAA3 /* FLKHangoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLKHangoutViewController.xib; sourceTree = "<group>"; };
+		476DD00D17A53AAB00ADBAA3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476DD00E17A53AAB00ADBAA3 /* CoreLocation.framework in Frameworks */,
 				476DCFF217A4EC3100ADBAA3 /* MapKit.framework in Frameworks */,
 				476DCF7117A4A0CA00ADBAA3 /* Security.framework in Frameworks */,
 				476DCF6F17A4A0C300ADBAA3 /* CFNetwork.framework in Frameworks */,
@@ -153,6 +163,7 @@
 		476DCE6D17A4693C00ADBAA3 = {
 			isa = PBXGroup;
 			children = (
+				476DD00D17A53AAB00ADBAA3 /* CoreLocation.framework */,
 				476DCFE917A4D54000ADBAA3 /* icon_small.png */,
 				476DCFE717A4D4B100ADBAA3 /* icon.png */,
 				476DCF5817A499A200ADBAA3 /* Flake.xcdatamodeld */,
@@ -223,6 +234,9 @@
 				476DCEA717A46CF800ADBAA3 /* FLKLoginViewController.h */,
 				476DCEA817A46CF800ADBAA3 /* FLKLoginViewController.m */,
 				476DCEA917A46CF800ADBAA3 /* FLKLoginViewController.xib */,
+				476DD00817A53A4E00ADBAA3 /* FLKHangoutViewController.h */,
+				476DD00917A53A4E00ADBAA3 /* FLKHangoutViewController.m */,
+				476DD00A17A53A4E00ADBAA3 /* FLKHangoutViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -283,6 +297,7 @@
 		476DCFE017A4CD6C00ADBAA3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				476DD00617A524CD00ADBAA3 /* ring.png */,
 				476DCFFF17A5179E00ADBAA3 /* logo.png */,
 				476DCFF317A5126B00ADBAA3 /* hangout_button_line.png */,
 				476DCFF417A5126B00ADBAA3 /* hangout_button.png */,
@@ -385,6 +400,8 @@
 				476DCFFE17A5126B00ADBAA3 /* hangout_user_inga.png in Resources */,
 				476DD00017A5179E00ADBAA3 /* logo.png in Resources */,
 				476DD00517A5229600ADBAA3 /* FLKAvatarView.xib in Resources */,
+				476DD00717A524CD00ADBAA3 /* ring.png in Resources */,
+				476DD00C17A53A4E00ADBAA3 /* FLKHangoutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +429,7 @@
 				476DCFDC17A4B27B00ADBAA3 /* FLKManagedObject.m in Sources */,
 				476DCFDF17A4B4AD00ADBAA3 /* FLKUser.m in Sources */,
 				476DD00317A5223B00ADBAA3 /* FLKAvatarView.m in Sources */,
+				476DD00B17A53A4E00ADBAA3 /* FLKHangoutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

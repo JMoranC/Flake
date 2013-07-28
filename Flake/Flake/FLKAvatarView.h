@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FLKAvatarView : UIImageView
+@interface FLKAvatarView : UIView
 {
-    
+    IBOutlet UIImageView *profilePicView;
+    IBOutlet UIImageView *ringView;
 }
 
 +(FLKAvatarView *)new;

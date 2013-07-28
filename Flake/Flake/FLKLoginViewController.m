@@ -8,6 +8,8 @@
 
 #import "FLKLoginViewController.h"
 #import "FLKUser.h"
+#import "FLKAvatarView.h"
+#import "FLKHangoutViewController.h"
 
 @interface FLKLoginViewController ()
 
@@ -35,6 +37,7 @@
     NSLog(@"\n\n SUCCESSFULLY CREATED USER: %@\n\n", user);
     
     
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -46,8 +49,9 @@
 
 - (IBAction)login:(id)sender
 {
-    FLKViewController *cont = [[FLKViewController alloc] initWithNibName:@"FLKViewController" bundle:nil];
-    [self.appDelegate.navigationController pushViewController:cont animated:YES];
+    FLKHangoutViewController *controller = [[FLKHangoutViewController alloc] initWithNibName:@"FLKHangoutViewController" bundle:nil];
+    
+    [self.appDelegate.navigationController pushViewController:controller animated:YES];
 }
 
 @end
