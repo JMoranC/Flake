@@ -48,6 +48,13 @@
 		476DCFE817A4D4B100ADBAA3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFE717A4D4B100ADBAA3 /* icon.png */; };
 		476DCFEA17A4D54100ADBAA3 /* icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFE917A4D54000ADBAA3 /* icon_small.png */; };
 		476DCFF217A4EC3100ADBAA3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476DCFF117A4EC3100ADBAA3 /* MapKit.framework */; };
+		476DCFF917A5126B00ADBAA3 /* hangout_button_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFF317A5126B00ADBAA3 /* hangout_button_line.png */; };
+		476DCFFA17A5126B00ADBAA3 /* hangout_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFF417A5126B00ADBAA3 /* hangout_button.png */; };
+		476DCFFB17A5126B00ADBAA3 /* hangout_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFF517A5126B00ADBAA3 /* hangout_logo.png */; };
+		476DCFFC17A5126B00ADBAA3 /* hangout_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFF617A5126B00ADBAA3 /* hangout_text.png */; };
+		476DCFFD17A5126B00ADBAA3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFF717A5126B00ADBAA3 /* background.png */; };
+		476DCFFE17A5126B00ADBAA3 /* hangout_user_inga.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFF817A5126B00ADBAA3 /* hangout_user_inga.png */; };
+		476DD00017A5179E00ADBAA3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 476DCFFF17A5179E00ADBAA3 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +118,13 @@
 		476DCFE717A4D4B100ADBAA3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		476DCFE917A4D54000ADBAA3 /* icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_small.png; sourceTree = "<group>"; };
 		476DCFF117A4EC3100ADBAA3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		476DCFF317A5126B00ADBAA3 /* hangout_button_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangout_button_line.png; sourceTree = "<group>"; };
+		476DCFF417A5126B00ADBAA3 /* hangout_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangout_button.png; sourceTree = "<group>"; };
+		476DCFF517A5126B00ADBAA3 /* hangout_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangout_logo.png; sourceTree = "<group>"; };
+		476DCFF617A5126B00ADBAA3 /* hangout_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangout_text.png; sourceTree = "<group>"; };
+		476DCFF717A5126B00ADBAA3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		476DCFF817A5126B00ADBAA3 /* hangout_user_inga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangout_user_inga.png; sourceTree = "<group>"; };
+		476DCFFF17A5179E00ADBAA3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +278,13 @@
 		476DCFE017A4CD6C00ADBAA3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				476DCFFF17A5179E00ADBAA3 /* logo.png */,
+				476DCFF317A5126B00ADBAA3 /* hangout_button_line.png */,
+				476DCFF417A5126B00ADBAA3 /* hangout_button.png */,
+				476DCFF517A5126B00ADBAA3 /* hangout_logo.png */,
+				476DCFF617A5126B00ADBAA3 /* hangout_text.png */,
+				476DCFF717A5126B00ADBAA3 /* background.png */,
+				476DCFF817A5126B00ADBAA3 /* hangout_user_inga.png */,
 				476DCFE517A4D4A900ADBAA3 /* icon.png */,
 				476DCFE317A4D0FE00ADBAA3 /* circle.png */,
 				476DCFE117A4CD8700ADBAA3 /* splash.png */,
@@ -348,6 +369,13 @@
 				476DCFE617A4D4A900ADBAA3 /* icon.png in Resources */,
 				476DCFE817A4D4B100ADBAA3 /* icon.png in Resources */,
 				476DCFEA17A4D54100ADBAA3 /* icon_small.png in Resources */,
+				476DCFF917A5126B00ADBAA3 /* hangout_button_line.png in Resources */,
+				476DCFFA17A5126B00ADBAA3 /* hangout_button.png in Resources */,
+				476DCFFB17A5126B00ADBAA3 /* hangout_logo.png in Resources */,
+				476DCFFC17A5126B00ADBAA3 /* hangout_text.png in Resources */,
+				476DCFFD17A5126B00ADBAA3 /* background.png in Resources */,
+				476DCFFE17A5126B00ADBAA3 /* hangout_user_inga.png in Resources */,
+				476DD00017A5179E00ADBAA3 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
