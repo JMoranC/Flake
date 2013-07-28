@@ -46,7 +46,8 @@
 
 - (IBAction)login:(id)sender
 {
-
+    FLKViewController *cont = [[FLKViewController alloc] initWithNibName:@"FLKViewController" bundle:nil];
+    [self.appDelegate.navigationController pushViewController:cont animated:YES];
 }
 
 @end
