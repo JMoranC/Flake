@@ -7,13 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface FLKAvatarView : UIView
 {
-    IBOutlet UIImageView *profilePicView;
-    IBOutlet UIImageView *ringView;
+
 }
 
+@property IBOutlet UIImageView *profilePicView;
+
+@property IBOutlet UIImageView *ringView;
+
 +(FLKAvatarView *)new;
+
+-(void)setProfilePic:(UIImage *)profilePic;
 
 @end

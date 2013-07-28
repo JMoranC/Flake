@@ -38,22 +38,19 @@
 					<object class="IBUIImageView" id="879650738">
 						<reference key="NSNextResponder" ref="1045271785"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrameSize">{77, 77}</string>
+						<string key="NSFrame">{{5, 6}, {66, 66}}</string>
 						<reference key="NSSuperview" ref="1045271785"/>
 						<reference key="NSNextKeyView" ref="97683558"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">icon.png</string>
-						</object>
 					</object>
 					<object class="IBUIImageView" id="97683558">
 						<reference key="NSNextResponder" ref="1045271785"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrameSize">{77, 77}</string>
 						<reference key="NSSuperview" ref="1045271785"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -69,10 +66,7 @@
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
-					<bytes key="NSWhite">MQA</bytes>
-					<object class="NSColorSpace" key="NSCustomColorSpace">
-						<int key="NSID">2</int>
-					</object>
+					<bytes key="NSWhite">MCAwAA</bytes>
 				</object>
 				<object class="IBUISimulatedSizeMetrics" key="IBUISimulatedDestinationMetrics">
 					<string key="IBUISimulatedSizeMetricsClass">IBUISimulatedFreeformSizeMetricsSentinel</string>
@@ -85,19 +79,19 @@
 			<array class="NSMutableArray" key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">profilePicView</string>
-						<reference key="source" ref="1045271785"/>
-						<reference key="destination" ref="879650738"/>
-					</object>
-					<int key="connectionID">11</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">ringView</string>
 						<reference key="source" ref="1045271785"/>
 						<reference key="destination" ref="97683558"/>
 					</object>
 					<int key="connectionID">12</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">profilePicView</string>
+						<reference key="source" ref="1045271785"/>
+						<reference key="destination" ref="879650738"/>
+					</object>
+					<int key="connectionID">13</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -123,8 +117,8 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="1045271785"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="97683558"/>
 							<reference ref="879650738"/>
+							<reference ref="97683558"/>
 						</array>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">containerView</string>
@@ -156,17 +150,17 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">12</int>
+			<int key="maxID">13</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="icon.png">{114, 114}</string>
-			<string key="ring.png">{99, 100}</string>
-		</dictionary>
+		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="NS.key.0">ring.png</string>
+			<string key="NS.object.0">{99, 100}</string>
+		</object>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
 	</data>
 </archive>

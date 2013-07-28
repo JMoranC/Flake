@@ -8,6 +8,7 @@
 
 #import "FLKAvatarView.h"
 
+
 @implementation FLKAvatarView
 
 +(FLKAvatarView *)new
@@ -27,13 +28,12 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(void)setProfilePic:(UIImage *)profilePic
 {
-    // Drawing code
+    self.profilePicView.image = profilePic;
+    self.profilePicView.layer.masksToBounds = YES;
+    self.profilePicView.layer.cornerRadius = self.profilePicView.bounds.size.width/2;
+    
 }
-*/
 
 @end
