@@ -7,6 +7,7 @@
 //
 
 #import "FLKLoginViewController.h"
+#import "FLKUser.h"
 
 @interface FLKLoginViewController ()
 
@@ -26,6 +27,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    FLKUser *user = [FLKUser newInManagedObjectContext:self.appDelegate.managedObjectContext];
+    
+    [user.managedObjectContext save:nil];
+    
+    NSLog(@"\n\n SUCCESSFULLY CREATED USER: %@\n\n", user);
+    
     // Do any additional setup after loading the view from its nib.
 }
 

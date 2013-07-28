@@ -8,15 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "FLKManagedObject.h"
 
 @class FLKUser;
 
-@interface FLKUser : NSManagedObject
+@interface FLKUser : FLKManagedObject
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * phoneNumber;
 @property (nonatomic, retain) NSNumber * canHangOut;
 @property (nonatomic, retain) NSSet *friends;
+
 @end
 
 @interface FLKUser (CoreDataGeneratedAccessors)

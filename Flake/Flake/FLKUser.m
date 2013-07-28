@@ -17,4 +17,9 @@
 @dynamic canHangOut;
 @dynamic friends;
 
++(NSString *)entityName
+{
+    return @"FLKUser";
+}
+
 @end

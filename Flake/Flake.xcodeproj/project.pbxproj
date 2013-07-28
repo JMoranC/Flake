@@ -57,10 +57,11 @@
 		476DCF2D17A4807500ADBAA3 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEEF17A4807500ADBAA3 /* Rakefile */; };
 		476DCF2E17A4807500ADBAA3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 476DCEF017A4807500ADBAA3 /* README.md */; };
 		476DCF5A17A499A200ADBAA3 /* Flake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 476DCF5817A499A200ADBAA3 /* Flake.xcdatamodeld */; };
-		476DCF6017A49C7400ADBAA3 /* FLKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCF5F17A49C7400ADBAA3 /* FLKUser.m */; };
 		476DCF6D17A4A09800ADBAA3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476DCF6C17A4A09800ADBAA3 /* CoreData.framework */; };
 		476DCF6F17A4A0C300ADBAA3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476DCF6E17A4A0C300ADBAA3 /* CFNetwork.framework */; };
 		476DCF7117A4A0CA00ADBAA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476DCF7017A4A0CA00ADBAA3 /* Security.framework */; };
+		476DCFDC17A4B27B00ADBAA3 /* FLKManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCFDB17A4B27B00ADBAA3 /* FLKManagedObject.m */; };
+		476DCFDF17A4B4AD00ADBAA3 /* FLKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DCFDE17A4B4AD00ADBAA3 /* FLKUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,12 +158,14 @@
 		476DCEEF17A4807500ADBAA3 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 		476DCEF017A4807500ADBAA3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		476DCF5917A499A200ADBAA3 /* Flake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flake.xcdatamodel; sourceTree = "<group>"; };
-		476DCF5E17A49C7400ADBAA3 /* FLKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKUser.h; sourceTree = "<group>"; };
-		476DCF5F17A49C7400ADBAA3 /* FLKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKUser.m; sourceTree = "<group>"; };
 		476DCF6617A49FAC00ADBAA3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		476DCF6C17A4A09800ADBAA3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		476DCF6E17A4A0C300ADBAA3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		476DCF7017A4A0CA00ADBAA3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		476DCFDA17A4B27B00ADBAA3 /* FLKManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKManagedObject.h; sourceTree = "<group>"; };
+		476DCFDB17A4B27B00ADBAA3 /* FLKManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKManagedObject.m; sourceTree = "<group>"; };
+		476DCFDD17A4B4AD00ADBAA3 /* FLKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKUser.h; sourceTree = "<group>"; };
+		476DCFDE17A4B4AD00ADBAA3 /* FLKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -393,8 +396,10 @@
 		476DCF4B17A485FC00ADBAA3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				476DCF5E17A49C7400ADBAA3 /* FLKUser.h */,
-				476DCF5F17A49C7400ADBAA3 /* FLKUser.m */,
+				476DCFDA17A4B27B00ADBAA3 /* FLKManagedObject.h */,
+				476DCFDB17A4B27B00ADBAA3 /* FLKManagedObject.m */,
+				476DCFDD17A4B4AD00ADBAA3 /* FLKUser.h */,
+				476DCFDE17A4B4AD00ADBAA3 /* FLKUser.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -535,7 +540,8 @@
 				476DCF1E17A4807500ADBAA3 /* User.m in Sources */,
 				476DCF1F17A4807500ADBAA3 /* PostTableViewCell.m in Sources */,
 				476DCF5A17A499A200ADBAA3 /* Flake.xcdatamodeld in Sources */,
-				476DCF6017A49C7400ADBAA3 /* FLKUser.m in Sources */,
+				476DCFDC17A4B27B00ADBAA3 /* FLKManagedObject.m in Sources */,
+				476DCFDF17A4B4AD00ADBAA3 /* FLKUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
